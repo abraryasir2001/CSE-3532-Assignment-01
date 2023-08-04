@@ -1,0 +1,400 @@
+*{ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Task 1 design start*/
+h1{
+    text-align: center;
+}
+.first_step{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.second_step{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log,.cart,.download,.comment{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.log{
+    background-image: linear-gradient(to top,#e68b15,#FAAC45,#FDBE6C,#FEC376);
+}
+.cart{
+    background-image: linear-gradient(to left,#838383,#B9B9B9,#878787);
+}
+.download{
+    background-image: linear-gradient(to top,#906D04,#BC8D03,#E3AB02,#EAB002);
+}
+.comment{
+    background-image: linear-gradient(to left,#8C6904,#BE8F03,#EBB102,#B88B03,#997303);
+}
+
+/*Task 1 design end*/
+
+
+/*Task 2 design start*/
+.cards{
+    margin: 70px;
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: repeat(3,1.5fr);
+    grid-gap:8px;
+}
+.c1,.c2,.c3{
+    margin: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+.shoe{
+   max-width: 250px;
+   height: 200px;
+   margin-top: 15px;
+}
+.watch,.shirt{
+    max-width: 190px;
+    margin-top: 15px;
+    height: 200px;
+ }
+ .t2{
+    font-size: 20px;
+    font-weight: 500;
+    width: 300px;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ .w{
+    background-color:#417090 ;
+ }
+ .s{
+    background-color:#142637 ;
+ }
+ .sh{
+    background-color:#FCAB1C ;
+ }
+ .s1,.s2,.s3
+ {
+    color:#FFC134 ;
+ }
+ .s4,.s5{
+    color: #928a8a;
+ }
+ .c160{
+    color: #417090;
+ }
+ .c260{
+    color: #142637;
+ }
+ .c360{
+    color: #FCAB1C;
+ }
+/*Task 2 design end*/
+
+/*Task 3 design start*/
+.form1{
+    margin: 20px;
+    margin-left: 450px;
+    margin-right: 450px; 
+    padding: 8px;
+    background-image: linear-gradient(to top,#3A5880,#446693,#50719C,#887383,#A26E74,#B16D6C,#C16B64,#BD6966,#BA6868,#A56B75,#9A6C7B,#8F6D81); 
+}
+.form_main{
+    margin: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px white;
+}
+.logoper{
+    width: 80px;
+}
+.piclogo{
+    margin: 30px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color:#B56162;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#uname,#pwd{
+    width: 230px;
+    height: 25px;
+    box-shadow: 0.8px 0.8px 0.8px 0.8px gray;
+    border: none;
+    font-weight: 600;
+}
+.login{
+    width: 240px;
+    height: 25px;
+    font-weight: 600;
+    color: white;
+    background-color:#B56162;
+    border: none;
+    cursor: pointer;
+}
+.ftext{
+    color: #838383;
+    font-weight: 500;
+}
+.acc{
+    color: #B56162;
+    cursor: pointer;
+}
+.form_form{
+    border: 4px solid blue;
+    margin-top: 2px;
+    margin-left: 450px;
+    margin-right: 450px; 
+}
+.form2{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+#name,#uname2,#pwd2,#cpwd2,#msg,#mailing{
+    width: 90%;
+    font-weight: 600;
+    margin-top: 6px;
+    height: 25px;
+    box-shadow: 1.2px 1.2px 1.2px 1.2px rgb(83, 81, 81);
+    border: none;
+}
+.sending{
+    margin-left: 20px;
+    width: 85%;
+    height: 35px;
+    margin: 20px;
+    margin-left: 27px;
+    color: white;
+    background-color: #6EAAFF;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #6EAAFF;
+}
+/*Task 3 design end*/
+
+/*Task 4 design start*/
+.calendar{
+    width: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 60px,repeat(6,60px);
+    grid-template-columns: repeat(7,50px);
+    text-align: center;
+    row-gap: 20px;
+    column-gap: 10px;
+    padding: 6px;
+}
+.cal1{
+    grid-column: 1/-1;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#cald2017{
+    padding: 10px;
+    font-weight: 800;
+} 
+
+#cal2017{
+    padding: 10px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #3780e7;
+    color: white;
+}
+#calg2017{
+    padding: 10px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    align-items: center;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+}
+/*Task 4 design end*/
+
+/*Task 5 design start*/
+
+.layout{
+    margin: auto;
+    padding-bottom: 10px;
+    background-color: #78868D;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: repeat(2,2fr);
+    grid-template-columns: auto;
+}
+.lay1{
+    background-color: #F1C232;
+    margin: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.lay2{
+    background-color: #F1C232;
+    margin: 18px;
+    display: flex;
+    justify-content: center;
+}
+.box1,.box2,.box3,.box11,.box22,.box33{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin:10px;
+    border: 1px solid black;
+}
+/*Task 5 design end*/
+
+/*Task 6 design start*/
+
+.part_one{
+    width: 100%;
+    height: 650px;
+    background-color: #F9F9FF;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+#writting_part,#img_part{
+    width: 50%;
+}
+#writting_part{
+    box-sizing: border-box;
+    margin-left: 100px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#img_part{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.dream{
+    font-size: 50px;
+    margin-left: 15px;
+    color: #444974;
+    margin-top: 20px;
+}
+.sal{
+    font-weight: 500;
+    font-size: 25px;
+    color: gray;
+}
+.para{
+    color: #838180;
+    margin-left: 15px;
+}
+.purchase{
+    padding: 15px 25px;
+    margin-left: 180px;
+    background-color: #70A9FD;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 85px;
+    font-size: 20px;
+    cursor: pointer;  
+}
+/*Task 6 design end*/
+
+/*Task 7 design start*/
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+    display: flex;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002147;
+  }
+  .footer_about_me, .newsletter{
+     width: 450px;
+     margin: 70px 5px 70px 30px;
+     padding:5px  25px;
+  }
+  .follow_me{
+     width: 350px;
+     margin: 70px 10px 70px 30px;
+     padding: 5px;
+  }
+  #mail{
+     margin-top: 40px;
+  }
+  .emails
+  {
+     font-size: 15px;
+     position: relative;
+     padding: 7px 35px;
+     border: 1px solid white;
+     width: 280px;
+  }
+  .arrow{
+     font-size: 24px;
+     position: absolute;
+     border: 1px solid white;
+     background-color: #8490FF;
+     color: white;
+  }
+  .footer_heading{
+     color: white;
+  }
+  .footer_paragraph{
+     color: #838180;
+  }
+  span{
+     color: #70A9FD;
+     font-weight: 700;
+  }
+  #social{
+     padding-left: 20px;
+  }
+  #social i{
+     padding: 10px;
+     font-size: 25px;
+     color: white;
+  }
+  .social_paragraph
+  {
+     font-size: 20px;
+     margin-left: 15px;
+  }
+  #followme{
+     margin-left: 15px;
+  }
+  /*Task 7 design end*/
